@@ -1,6 +1,6 @@
-# Customer_Segmentation
+# Customer Segmentation with RFM+ Based Clustering
 
-CONTENTS:
+### CONTENTS:
 
 Capstone 3 Final Report (.docx)
 
@@ -24,7 +24,7 @@ Data files:
 
 	final_labeled.csv - customer data with cluster labels
 	
-OVERVIEW:
+### OVERVIEW:
 
 In this project, I compared several different unsupervised clustering models to find the best customer segmentation for an online retailer based on customer transaction history. The three best models all used K-Means clustering: a 4-cluster model using only RFM features for each customer, a 3-cluster model using RFM plus 4 other calculated features (described below), and a 6-cluster model that used RFM plus one additional feature describing the average time between orders for each customer.
 
